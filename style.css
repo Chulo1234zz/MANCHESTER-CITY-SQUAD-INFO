@@ -1,0 +1,984 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+team{
+    color:#fff ;
+    /* background-color: white; */
+    /* background: linear-gradient(to top left, #67c9e3, #75a36e); */
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    margin-top: 20vh;
+}
+logo{
+    background: url(./squadImg/city\ main\ logo.jfif);
+    width: 10vw;
+    height: 16vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    margin: auto;
+}
+goalies{
+    padding: 12px 0px 33px;
+    padding-left: 85px;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10vh;
+    margin-bottom: 40vh;
+}
+/* players images */
+player1{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/ederson.webp);
+    background-color: rgb(90, 181, 217);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    padding-bottom: 5vh;
+    transition: 0.6s;
+   transform-style: preserve-3d;
+   position: relative;
+}
+player{
+display: flex;
+border-radius: 1em;
+/* justify-content: las; */
+}
+backplayer{
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+    background: url(./backimages/ederson4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    /* background-size: contain; */
+    position: absolute;
+    top: 0;
+    left: -48%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player1:hover  backplayer{
+    visibility: visible;
+    left: 0%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player2{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/stefan-ortega-moreno.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer2{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/stefan4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    position: absolute;
+    top: 46.7%;
+    left: 20%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player2:hover  backplayer2{
+    visibility: visible;
+    left: 38.7%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player3{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/scott-carson.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer3{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/scott4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 46.7%;
+    left: 58.8%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player3:hover  backplayer3{
+    visibility: visible;
+    left: 71.8%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.4s;
+}
+player4{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/kyle-walker\ \(1\).webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer4{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/walker4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top:120.4%;
+    left: -50%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player4:hover  backplayer4{
+    visibility: visible;
+    left: 5.6%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player5{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/ruben-dias.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer5{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/dias4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 120.4%;
+    left: 23%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player5:hover  backplayer5{
+    visibility: visible;
+    left: 38.66%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player6{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/john-stones.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer6{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/stones3.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 120.4%;
+    left: 58%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player6:hover  backplayer6{
+    visibility: visible;
+    left: 71.8%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player7{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/nathan-ake-r.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer7{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/ake4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 168.5%;
+    left: -50%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player7:hover  backplayer7{
+    visibility: visible;
+    left: 5.6%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player8{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/joao-cancelo.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer8{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/cancelo4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 168.5%;
+    left: 23%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player8:hover  backplayer8{
+    visibility: visible;
+    left: 38.66%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player9{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/aymeric-laporte.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer9{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/laporte4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 168.5%;
+    left: 58%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player9:hover  backplayer9{
+    visibility: visible;
+    left: 71.8%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player10{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/akanji-cut-out.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer10{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/akanji3.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 216.5%;
+    left: -50%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player10:hover  backplayer10{
+    visibility: visible;
+    left: 5.6%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player11{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/rico-lewis-v2.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer11{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/rico4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 216.5%;
+    left: 23%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player11:hover  backplayer11{
+    visibility: visible;
+    left: 38.66%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player12{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/kalvinphillips.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer12{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/kalvin3.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 285.3%;
+    left: -50%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player12:hover  backplayer12{
+    visibility: visible;
+    left: 5.6%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player13{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/ilkay-gundogan.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer13{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/gundo4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 285.3%;
+    left: 23%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player13:hover  backplayer13{
+    visibility: visible;
+    left: 38.66%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player14{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/jack-grealish.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer14{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/grealish4.jpg  );
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 285.3%;
+    left: 58%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player14:hover  backplayer14{
+    visibility: visible;
+    left: 71.8%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player15{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/rodri.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer15{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/rodri4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 333.53%;
+    left: -50%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player15:hover  backplayer15{
+    visibility: visible;
+    left: 5.6%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player16{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/kevin-de-bruyne.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer16{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/kdb4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 333.53%;
+    left: 23%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player16:hover  backplayer16{
+    visibility: visible;
+    left: 38.66%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player17{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/bernardo-silva.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer17{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/bernardo4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 333.53%;
+    left: 58%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player17:hover  backplayer17{
+    visibility: visible;
+    left: 71.8%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player18{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/sergio-gomez-h-s-cut.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer18{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/sergio4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 381.3%;
+    left: -50%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player18:hover  backplayer18{
+    visibility: visible;
+    left: 5.6%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player19{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/phil-foden.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer19{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/foden3.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 381.3%;
+    left: 23%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player19:hover  backplayer19{
+    visibility: visible;
+    left: 38.66%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player20{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/cole-palmer.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer20{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/cole4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 381.3%;
+    left: 58%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player20:hover  backplayer20{
+    visibility: visible;
+    left: 71.8%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player21{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/microsoftteams-image-127.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer21{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/haaland4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 463.4%;
+    left: -50%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player21:hover  backplayer21{
+    visibility: visible;
+    left: 5.7%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player22{
+    height:38vh;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/julian-alvarez.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer22{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/alvarez4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 463.4%;
+    left: 23%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player22:hover  backplayer22{
+    visibility: visible;
+    left: 38.66%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+player23{
+    height:100%;
+    width: 14.5vw;
+    padding-right: 1px;
+    padding-left: 4px;
+    background: url(./squadImg/riyad-mahrez.webp);
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 16px 56px -7px rgba(0,0,0,0.75);
+}
+backplayer23{
+    width: 14.5vw;
+    height: 38vh;
+    /* background-color: white; */
+    background: url(./backimages/mahrez4.jpg);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    justify-content: center;
+    background-size: cover;
+    position: absolute;
+    top: 463.4%;
+    left: 58%;
+    transition: all 0.5s ease-in-out;
+    /* overflow: hidden; */
+    visibility: hidden;
+}
+player23:hover  backplayer23{
+    visibility: visible;
+    left: 71.8%;
+    z-index: 10;
+    /* opacity: 0.6; */
+    transition: ease-in-out 0.3s;
+}
+defenders{
+    padding: 12px 0px 33px;
+    padding-left: 85px;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 136vh;
+}
+midfielders{
+    padding: 12px 0px 33px;
+    padding-left: 85px;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10vh;
+    margin-bottom: 149vh;
+}
+forwards{
+    padding: 12px 0px 33px;
+    padding-left: 85px;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10vh;
+    margin-bottom: 16vh;
+}
+number{
+    font-size: 43px;
+    margin-right: 5vw;
+    color: #444;
+    box-sizing: inherit;
+    font-weight: bold;
+    color: transparent;
+    /* text-shadow: 3px px 3px skyblue ; */
+    -webkit-text-stroke:1.35px #001838;
+    font-family: KippaxCondensed, sans-serif;
+}
+number:hover{
+    color: #001838;
+    transition: ease-in-out .25s;
+    z-index: 30;
+}
+fullname {
+    position: relative;
+    top:231px;
+    left: 0;    
+    padding-top: 4px;
+    padding-bottom: 5px;
+    font-size: 15.2px;
+    font-weight: bolder;
+    line-height: 30px;
+    letter-spacing: .3px;
+    font-family: sans-serif;
+    color: #001838;
+    background-color: #fff;
+    margin-top: 7vh;
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    max-width: 100%;
+    -webkit-text-stroke:0.55px #001838;
+    font-family: KippaxCondensed, sans-serif;
+    /* margin-right: 20px; */
+    /* flex-wrap: wrap; */
+    /* display: block; */
+    -webkit-font-smoothing:antialiased;
+}
+fullname:hover{
+    color: #fff;
+    font-size: 15.2px;
+    background: #001838 ;
+}
+position{
+    color: white;
+}
+nationality{
+    display: none;
+}
+name{
+    color: #6daddf;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}

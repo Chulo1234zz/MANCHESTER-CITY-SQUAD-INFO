@@ -1,0 +1,73 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="team">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="rules"/>
+        <xs:element name="goalie">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="player" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="fullname"/>
+                    <xs:element type="xs:string" name="position"/>
+                    <xs:element type="xs:byte" name="number"/>
+                    <xs:element type="xs:string" name="nationality"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="defenders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="player" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="fullname"/>
+                    <xs:element type="xs:string" name="position"/>
+                    <xs:element type="xs:byte" name="number"/>
+                    <xs:element type="xs:string" name="nationality"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="midfielders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="player" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="fullname"/>
+                    <xs:element type="xs:string" name="position"/>
+                    <xs:element type="xs:string" name="number"/>
+                    <xs:element type="xs:string" name="nationality"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="forwards">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="player" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="fullname"/>
+                    <xs:element type="xs:string" name="position"/>
+                    <xs:element type="xs:byte" name="number"/>
+                    <xs:element type="xs:string" name="nationality"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

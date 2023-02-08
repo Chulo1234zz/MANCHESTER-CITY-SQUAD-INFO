@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE team[]> -->
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!-- xml schema declaration -->
+<team xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+    xsi:noNamespaceSChemaLocation = "schema.xsd">
+   <!-- <rules> &rules; </rules> -->
+   <!-- goalies -->
+<logo></logo>
+<name>GOAL KEEPERS</name>   
+<goalies>
+  <!-- <name>GOAL KEEPERS</name> -->
+  <player1>
+        <player>
+        <number>31</number>
+        <!-- <position>GK/GK</position> -->
+        <nationality class="hidden">Brazilian</nationality>
+        <fullname>Ederson</fullname>
+    </player>
+    <backplayer>
+    </backplayer>
+  </player1>
+  <player2>
+    <player>
+        <number>18</number>
+        <!-- <position>GK/GK</position> -->
+        <nationality class="hidden">German</nationality>    
+        <fullname>Stefan</fullname>
+    </player>
+    <backplayer2>
+    </backplayer2>
+  </player2>
+  <player3>
+    <player>
+        <number>33</number>
+        <fullname>Scott</fullname>
+        <!-- <position>GK/GK</position> -->
+        <nationality class="hidden">English</nationality>
+        <!-- <rectangle></rectangle>     -->
+    </player>
+    <backplayer3>
+    </backplayer3>
+  </player3>
+</goalies>
+<!-- defenders -->
+<name>DEFENDERS</name>   
+<defenders>
+  <player4>
+    <player>
+        <number>2</number>
+        <fullname>Kyle Walker</fullname>
+        <!-- <position>RB/RWB</position> -->
+        <nationality class="hidden">English</nationality>    
+    </player>  
+    <backplayer4>
+    </backplayer4>
+  </player4>
+  <player5>
+    <player>
+        <number>3</number>
+        <fullname>Ruben Dias</fullname>
+        <!-- <position>CB/CB</position> -->
+        <nationality class="hidden">Portuguese</nationality>    
+    </player>  
+    <backplayer5>
+    </backplayer5>
+  </player5>
+  <player6>
+    <player>
+        <number>5</number>
+        <fullname>John Stones</fullname>
+        <!-- <position>CB/CB</position> -->
+        <nationality class="hidden">English</nationality>    
+    </player>  
+    <backplayer6>
+    </backplayer6>
+  </player6>
+  <player7>
+    <player>
+        <number>6</number>
+        <fullname>Nathan D. Ake</fullname>
+        <!-- <position>CB/LB</position> -->
+        <nationality class="hidden">Dutch</nationality>    
+    </player>
+    <backplayer7>
+    </backplayer7>
+  </player7>
+  <player8>
+    <player>
+        <number>7</number>
+        <fullname>JEREMIAH</fullname>
+        <!-- <position>LB/RB</position> -->
+        <nationality class="hidden">Portuguese</nationality>    
+    </player>
+    <backplayer8>
+    </backplayer8>
+  </player8>
+  <player9>
+    <player>
+        <number>14</number>
+        <!-- <position>CB/LB</position> -->
+        <nationality class="hidden">Spanish</nationality>   
+        <fullname>Laporte</fullname> 
+    </player>  
+    <backplayer9>
+    </backplayer9>
+  </player9>
+  <player10>
+    <player>
+        <number>25</number>
+        <fullname>Akanji</fullname>
+        <!-- <position>CB/CB</position> -->
+        <nationality class="hidden">Swiss</nationality>    
+    </player>  
+    <backplayer10>
+    </backplayer10>
+  </player10>
+  <player11>
+    <player>
+        <number>82</number>
+        <fullname>Rico Lewis</fullname>
+        <!-- <position>RB/RM</position> -->
+        <nationality>English</nationality>    
+    </player>  
+    <backplayer11>
+    </backplayer11>
+  </player11>
+</defenders>
+<!-- midfielders -->
+<name>MIDFIELDERS</name>   
+<midfielders>
+  <player12>
+    <player>
+        <number>4</number>
+        <fullname>Kalvin Phillips</fullname>
+        <!-- <position>DM/CDM</position> -->
+        <nationality>English</nationality>    
+    </player>  
+    <backplayer12>
+    </backplayer12>
+  </player12>
+  <player13>
+    <player>
+        <number>8</number>
+        <fullname> Gundogan</fullname>
+        <!-- <position>CM/DM</position> -->
+        <nationality>German</nationality>    
+    </player>  
+    <backplayer13>
+    </backplayer13>
+  </player13>
+  <player14>
+    <player>
+        <number>10</number>
+        <fullname>Grealish</fullname>
+        <!-- <position>LM/RM</position> -->
+        <nationality>English</nationality>    
+    </player>
+    <backplayer14>
+    </backplayer14>
+  </player14>
+  <player15>
+    <player>
+        <number>16</number>
+        <fullname>Rodrigo </fullname>
+        <!-- <position>CDM/CM</position> -->
+        <nationality>Spanish</nationality>    
+    </player>
+    <backplayer15>
+    </backplayer15>
+  </player15>
+  <player16>
+    <player>
+        <number>17</number>
+        <fullname>De Bruyne</fullname>
+        <!-- <position>AM</position> -->
+        <nationality>Belgian</nationality>    
+    </player>
+    <backplayer16>
+    </backplayer16>
+  </player16>
+  <player17>
+    <player>
+        <number>20</number>
+        <fullname>Bernardo</fullname>
+        <!-- <position>RM/LM</position> -->
+        <nationality>Portuguese</nationality>    
+    </player>
+    <backplayer17>
+    </backplayer17>
+  </player17>
+  <player18>
+    <player>
+        <number>21</number>
+        <fullname> Gomez</fullname>
+        <!-- <position>LM/DLM</position> -->
+        <nationality>Spanish</nationality>    
+    </player>
+    <backplayer18>
+    </backplayer18>
+  </player18>
+  <player19>
+    <player>
+        <number>47</number>
+        <fullname>Phil Foden</fullname>
+        <!-- <position>LM/AM</position> -->
+        <nationality>English</nationality>    
+    </player> 
+    <backplayer19>
+    </backplayer19>
+  </player19>
+  <player20>
+    <player>
+        <number>80</number>
+        <fullname>Palmer</fullname>
+        <!-- <position>AM/RWF</position> -->
+        <nationality>English</nationality>    
+    </player>
+    <backplayer20>
+    </backplayer20>
+  </player20>
+</midfielders>
+<!-- forwards -->
+<name>FORWARDS</name>   
+<forwards>
+  <player21>
+    <player>
+        <number>9</number>
+        <fullname>Erling Haaland</fullname>
+        <!-- <position>CF/F9</position> -->
+        <nationality>Norwegian</nationality>    
+    </player>
+    <backplayer21>
+    </backplayer21>
+  </player21>
+  <player22>
+    <player>
+        <number>19</number>
+        <fullname>Alvarez</fullname>
+        <!-- <position>CF/RWF</position> -->
+        <nationality>Argentine</nationality>    
+    </player>
+    <backplayer22>
+    </backplayer22>
+  </player22>
+  <player23>
+    <player>
+        <number>26</number>
+        <fullname>Mahrez</fullname>
+        <!-- <position>RWF</position> -->
+        <nationality>Algerian</nationality>    
+    </player>
+    <backplayer23>
+    </backplayer23>
+  </player23>
+</forwards>
+</team>
